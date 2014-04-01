@@ -62,5 +62,9 @@ module RenderAnywhere
       {}
     end
 
+    # set default_url_options
+    def default_url_options
+      ActionMailer::Base.default_url_options
+    end
   end
 end
